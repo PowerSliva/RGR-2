@@ -1,0 +1,15 @@
+ .layer {
+  position: relative;
+  border: 2px solid Black;  /* Параметры рамки */
+  padding: 30px; /* Поля вокруг текста */
+  height: 280px;
+ }
+ .pir {
+  position: relative;
+  width: 550px;
+    }
+ .gir {
+  position: relative;
+   top: -200px;
+   right: -580px;
+ }
