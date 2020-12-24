@@ -1,23 +1,19 @@
 <!DOCTYPE html>
+<html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="style.css">
- </head>
-<body>
-  <div class="layer">
-    <div class="pir">
-      <canvas id="myChart"></canvas>
-      <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-      <script src="script.js"></script>
-    </div> 
-    <div class="gir">
-      <p>Ввод координаты: <input id="x"></p>
-      <p><button class="btn btn-succsess" onclick="addChart()"
-      >Построить точку</button></p>
-      <p><button class="btn btn-succsess" onclick="clearChart()"
-      >Очистить график</button></p>
-    </div>
-  </div>  
+  <title>JS Bin</title>
+</head>
+<body class="body">
+  
+<div class="blockbutton">
+      <p class="knopka"><button class="btn btn-succsess" onclick="func()">Получить данные</button></p>
+      <p class="knopka text">Всего в списке - 100 записей</p>
+</div>         
+<div id="one">
+    <script src="script.js"></script>
+</div>
 </body>
 </html>
